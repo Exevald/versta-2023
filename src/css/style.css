@@ -190,7 +190,6 @@ html {
 .main__form-wrapper {
     width: 80%;
     margin-top: 181px;
-    width: 50%;
     height: 490px;
     display: flex;
 }
@@ -327,12 +326,13 @@ body{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    width: 62%;
+    justify-content: center;
 }
 
 .component{
     background-color: #333337;
-    width: 32%;
-    height: 489px;
+    width: 378px;
     border-radius: 20px;
 }
 
