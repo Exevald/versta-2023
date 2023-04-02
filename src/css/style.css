@@ -555,6 +555,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .main-example-works__button-more:hover {
