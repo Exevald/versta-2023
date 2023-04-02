@@ -69,6 +69,12 @@ html {
     color: #FFFFFF;
 }
 
+.list-item:hover {
+    color: #65EDBC;
+    transform: scale(1.02);
+    transition: transform 500ms;
+}
+
 .text-medium {
     font-family: 'Jost', sans-serif;
     font-style: normal;
