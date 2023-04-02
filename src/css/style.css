@@ -2,3 +2,128 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    background-color: #18181B;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main__form-wrapper {
+    width: 50%;
+    height: 490px;
+    display: flex;
+}
+
+.main__form {
+    display: flex;
+}
+
+.main__form-description {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-description__title {
+    color: white;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 54px;
+}
+
+.form-description__subtitle {
+    margin-top: 24px;
+    color: #CAD5E4;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+}
+
+.form-wrapper__image {
+    min-width: 45%;
+    margin-left: 152px;
+}
+
+.form-description__form {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.form__input {
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: #18181B;
+    padding-bottom: 6px;
+}
+
+.form__input_next {
+    margin-top: 37px;
+}
+
+.form__submit-button {
+    margin-top: 43px;
+    background-color: #65EDBC;
+    width: 100%;
+    height: 55px;
+    border-radius: 44px;
+    border: none;
+    font-family: 'Jost', sans-serif;
+    color: #18181B;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.form__submit-button:hover {
+    background-color: #1DAC79;
+    cursor: pointer;
+    transform: scale(1.02);
+    transition: transform 500ms;
+}
+
+.main__footer-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper__footer {
+    margin-top: 189px;
+    width: 62%;
+    height: 79px;
+    background-color: #18181B;
+    border-top: solid #333337 1px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__logo {
+    width: 125px;
+    height: 22px;
+}
+
+.footer__copyright-text {
+    color: #CAD5E4;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+}
