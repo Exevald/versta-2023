@@ -7,6 +7,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Open+Sans:wght@800&family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Open+Sans:wght@800&family=Roboto:wght@500&display=swap"
+          rel="stylesheet">
 </head>
 <body>
     <header class = "header">
@@ -56,5 +58,35 @@
             </div>
         </div>
     </header>
+<div class="main">
+    <div class="main__form-wrapper" id="form">
+        <div class="main__form-description">
+            <h2 class="form-description__title">Оставить заявку</h2>
+            <p class="form-description__subtitle">Заполните форму заявки, и наш консультант свяжется с вами в течение
+                дня. А также мы пришлем вам на почту презентацию курса.</p>
+            <form class="form-description__form">
+                <label>
+                    <input required class="form__input" type="text" name="name" placeholder="Имя">
+                </label>
+                <label>
+                    <input required class="form__input form__input_next" type="email" name="email" placeholder="Email">
+                </label>
+                <label>
+                    <input required class="form__input form__input_next" type="text" name="phone_number"
+                           placeholder="Телефон">
+                </label>
+                <input class="form__submit-button" type="submit" value="Записаться на курс">
+            </form>
+        </div>
+        <img src="./src/images/robot.png" alt="robot" class="form-wrapper__image">
+    </div>
+    <div id="wdh_result_form"></div>
+    <footer class="main__footer-wrapper">
+        <div class="footer-wrapper__footer">
+            <img src="./src/images/logo.svg" alt="logo" class="footer__logo">
+            <p class="footer__copyright-text">© 2023, Все права защищены</p>
+        </div>
+    </footer>
+</div>
 </body>
 </html>
