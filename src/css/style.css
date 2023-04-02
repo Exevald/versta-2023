@@ -174,8 +174,15 @@ html {
     flex-direction: column;
 }
 
+.main__form-area {
+    width: 62%;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-left: 3px;
+}
+
 .main__form-wrapper {
-    width: 50%;
+    width: 80%;
     height: 490px;
     display: flex;
 }
@@ -294,6 +301,7 @@ body{
 
 .main-examples-works{
     width: 1182px;
+    padding-bottom: 181px;
 }
 
 .main-example-works__header{
