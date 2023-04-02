@@ -8,13 +8,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Open+Sans:wght@800&family=Roboto:wght@500;700&display=swap"
           rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
-<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script src="./src/js/app.js" type="application/javascript"></script>
 <header class="header">
-    <div class="header__header-content header-content" id="main">
+    <div class="header__header-content header-content" id="main" data-aos="fade-left">
         <div class="header-content__top-panel top-panel">
             <div class="top-panel__logo logo">
                 <div class="logo__img">
@@ -35,7 +33,7 @@
                 </nav>
             </div>
         </div>
-        <div class="header-content__header-title header-title">
+        <div class="header-content__header-title header-title" data-aos="fade-left">
             <h1 class="header-title__text text-xxlarge">
                 Профессия Геймдизайнер
             </h1>
@@ -62,7 +60,7 @@
         <div class="main-example-works__header">
             <h2>Примеры работ студентов</h2>
         </div>
-        <div class="components">
+        <div class="components" data-aos="flip-left">
             <div class="component">
                 <img src="src/images/cosmo_atack.png" alt="CosmoAtack" class="component__img">
                 <div class="component__info">
@@ -156,22 +154,24 @@
                 </div>
             </div>
         </div>
-        <div class="main-example-works__button-more">
+        <div class="main-example-works__button-more" data-aos="fade-left">
             <a href="https://rustgainutdinov.github.io/canvas-games/index.html" class="button-more__link">Больше игр</a>
         </div>
     </div>
     <div class="main__form-area">
-        <div class="main__form-wrapper" id="form">
+        <div class="main__form-wrapper" id="form" data-aos="zoom-in">
             <div class="main__form-description">
                 <h2 class="form-description__title">Оставить заявку</h2>
-                <p class="form-description__subtitle">Заполните форму заявки, и наш консультант свяжется с вами в течение
+                <p class="form-description__subtitle">Заполните форму заявки, и наш консультант свяжется с вами в
+                    течение
                     дня. А также мы пришлем вам на почту презентацию курса.</p>
                 <form class="form-description__form">
                     <label>
                         <input required class="form__input" type="text" name="name" placeholder="Имя">
                     </label>
                     <label>
-                        <input required class="form__input form__input_next" type="email" name="email" placeholder="Email">
+                        <input required class="form__input form__input_next" type="email" name="email"
+                               placeholder="Email">
                     </label>
                     <label>
                         <input required class="form__input form__input_next" type="text" name="phone_number"
@@ -185,7 +185,8 @@
     </div>
     <div class="main__button-up-wrapper">
         <div class="button-up-wrapper__image-area">
-            <img src="./src/images/arrow_up.svg" class="image-area__image" alt="arrow_up"  onclick="scrollToPos(0)">
+            <img src="./src/images/arrow_up.svg" class="image-area__image" alt="arrow_up" onclick="scrollToPos(0)"
+                 data-aos="fade-up">
         </div>
     </div>
     <footer class="main__footer-wrapper">
@@ -195,5 +196,9 @@
         </div>
     </footer>
 </div>
+
+<script src="./src/js/app.js" type="application/javascript"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="./src/js/aosInit.js" type="application/javascript"></script>
 </body>
 </html>
