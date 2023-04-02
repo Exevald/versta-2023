@@ -12,7 +12,7 @@ body{
 }
 
 .main-example-works__header{
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 48px;
@@ -42,42 +42,40 @@ body{
 }
 
 .component__info{
-    /*border: 1px solid green;*/
     border-radius: 16px;
 }
 
 .info__header{
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 140%;
     color: #FFFFFF;
-    padding: 42px 0px 0px 36px;
+    padding: 42px 0 0 36px;
 }
 
 .info__text{
     width: 82%;
-    font-family: 'Jost';
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
     color: #CAD5E4;
-    padding: 8px 0px 0px 36px;
+    padding: 8px 0 0 36px;
 }
 
 .component__link{
     display: flex;
     flex-direction: row;
-    margin: 28px 0px 0px 36px;
-    /*border: 1px solid green;*/
+    margin: 28px 0 0 36px;
     border-radius: 16px;
 }
 
 .link__text{
-    margin: 0px 14px 0px 0px;
-    font-family: 'Jost';
+    margin: 0 14px 0 0;
+    font-family: 'Jost', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
