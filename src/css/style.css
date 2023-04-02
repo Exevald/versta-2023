@@ -175,6 +175,7 @@ html {
 }
 
 .main__form-wrapper {
+    margin-top: 181px;
     width: 50%;
     height: 490px;
     display: flex;
