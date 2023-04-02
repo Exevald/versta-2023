@@ -20,17 +20,40 @@
                 </div>
             </div>
             <div class="top-panel__navigation-panel navigation-panel">
-                <nav class="navigation-panel__navigation-panel-list navigation-panel-list">
-                    <a href="#main" class="list-item list-item_linked text-medium">
-                        Главная
-                    </a>
-                    <a href="#examples" class="list-item list-item_linked text-medium">
-                        Примеры работ
-                    </a>
-                    <a href="#form" class="list-item list-item_linked text-medium">
-                        Записаться
-                    </a>
-                </nav>
+                <div class="hamburger-menu">
+                        <input id="menu__toggle" type="checkbox" />
+                        <label class="menu__btn" for="menu__toggle">
+                            <img src = "./src/images/burger-menu-icon.svg" alt = "burger_menu_icon">
+                        </label>
+                    <nav class="navigation-panel-list navigation-panel-list_type_burger">
+                        <input id="menu__close" type="checkbox" />
+                        <label class="menu__btn btn" for="menu__close">
+                            <img src = "./src/images/close-burger-menu.svg" alt = "burger_menu_icon">
+                        </label>
+                        <a href="#main" class="list-item list-item_linked list-item_linked_burger text-medium">
+                            Главная
+                        </a>
+                        <a href="#examples" class="list-item list-item_linked list-item_linked_burger text-medium">
+                            Примеры работ
+                        </a>
+                        <a href="#form" class="list-item list-item_linked list-item_linked_burger text-medium">
+                            Записаться
+                        </a>
+                    </nav>
+                </div>
+                <div class="usual-menu">
+                    <nav class="navigation-panel-list">
+                        <a href="#main" class="list-item list-item_linked text-medium">
+                            Главная
+                        </a>
+                        <a href="#examples" class="list-item list-item_linked text-medium">
+                            Примеры работ
+                        </a>
+                        <a href="#form" class="list-item list-item_linked text-medium">
+                            Записаться
+                        </a>
+                    </nav>
+                </div>
             </div>
         </div>
         <div class="header-content__header-title header-title" data-aos="fade-left">
