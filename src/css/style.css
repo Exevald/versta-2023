@@ -481,7 +481,6 @@ body {
         margin-left: 130px;
         height: 80%;
     }
-
     .main__form-wrapper {
         display: flex;
         align-items: flex-end;
@@ -497,7 +496,6 @@ body {
         padding-top: 100px;
         padding-bottom: 120px;
     }
-
     .form-wrapper__image {
         padding-top: 50px;
         margin-left: 0;
@@ -517,11 +515,9 @@ body {
     .navigation-panel{
         margin-right: 40px;
     }
-
     .header-content__header-title {
         margin: 0 0 0 20px;
     }
-
     .header-content__header-subtitle {
         margin: 0 0 0 20px;
     }
@@ -532,7 +528,6 @@ body {
         display: none;
         visibility: hidden;
     }
-
     .hamburger-menu{
         display: flex;
         visibility: visible;
