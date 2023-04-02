@@ -278,7 +278,6 @@ html {
 }
 
 .footer-wrapper__footer {
-    margin-top: 189px;
     width: 62%;
     height: 79px;
     background-color: #18181B;
@@ -397,4 +396,19 @@ body{
     color: white;
     transform: scale(1.03);
     transition: transform 500ms;
+}
+
+.main__button-up-wrapper {
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    height: 120px;
+}
+
+.button-up-wrapper__image-area {
+    margin-right: 5%;
+}
+
+.image-area__image {
+    cursor: pointer;
 }

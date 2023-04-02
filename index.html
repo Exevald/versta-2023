@@ -10,6 +10,7 @@
           rel="stylesheet">
 </head>
 <body>
+<script src="./src/js/app.js" type="application/javascript"></script>
 <header class="header">
     <div class="header__top-panel top-panel">
         <div class="top-panel__logo logo">
@@ -177,10 +178,14 @@
             <img src="./src/images/robot.png" alt="robot" class="form-wrapper__image">
         </div>
     </div>
-    <div id="wdh_result_form"></div>
+    <div class="main__button-up-wrapper">
+        <div class="button-up-wrapper__image-area">
+            <img src="./src/images/arrow_up.svg" class="image-area__image" alt="arrow_up"  onclick="scrollToPos(0)">
+        </div>
+    </div>
     <footer class="main__footer-wrapper">
         <div class="footer-wrapper__footer">
-            <img src="./src/images/logo.svg" alt="logo" class="footer__logo">
+            <img src="./src/images/logo.svg" alt="logo" class="footer__logo" id="button_up">
             <p class="footer__copyright-text">© 2023, Все права защищены</p>
         </div>
     </footer>
