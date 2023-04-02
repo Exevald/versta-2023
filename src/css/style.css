@@ -415,3 +415,32 @@ body{
     transform: scale(1.05);
     transition: transform 500ms;
 }
+
+.main-example-works__button-more {
+    margin-top: 20px;
+    width: 260px;
+    height: 55px;
+    background-color: #65EDBC;
+    border: none;
+    border-radius: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-example-works__button-more:hover {
+    background-color: #1DAC79;
+    color: white;
+    transform: scale(1.03);
+    transition: transform 500ms;
+}
+
+.button-more__link {
+    color: #18181B;
+    text-decoration: none;
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+}
