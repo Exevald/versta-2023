@@ -231,6 +231,7 @@ html {
 }
 
 .form__input {
+    color: #D8DAE5;
     width: 100%;
     border-top: none;
     border-left: none;
