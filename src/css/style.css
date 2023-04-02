@@ -378,3 +378,11 @@ body{
     border: 1px solid white;
     border-radius: 16px;
 }
+
+.link__text:hover {
+    border: none;
+    background-color: #1DAC79;
+    color: white;
+    transform: scale(1.03);
+    transition: transform 500ms;
+}
