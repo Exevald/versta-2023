@@ -31,14 +31,14 @@ body{
 
 .component{
     background-color: #333337;
-    width: 378px;
+    width: 32%;
     height: 489px;
     border-radius: 20px;
 }
 
 .component__img{
-    width: 378px;
-    height: 192px;
+    width: 100%;
+    height: 39%;
 }
 
 .component__info{
