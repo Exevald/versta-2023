@@ -412,3 +412,8 @@ body{
 .image-area__image {
     cursor: pointer;
 }
+
+.image-area__image:hover {
+    transform: scale(1.05);
+    transition: transform 500ms;
+}
