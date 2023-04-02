@@ -16,14 +16,14 @@ html {
     padding-bottom: 155px;
 }
 
-.header__top-panel {
-    padding-top: 28px;
+.header-content__top-panel {
+    padding: 28px 0 106px 0;
 }
 
 
 .top-panel {
     display: flex;
-    width: 62%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
 }
@@ -82,10 +82,6 @@ html {
     font-size: 16px;
 }
 
-.header__header-content {
-    padding-top: 106px;
-}
-
 .header-content__header-title {
     color: #FFFFFF;
 }
@@ -115,6 +111,7 @@ html {
     justify-content: space-between;
     gap: 38px;
     flex-wrap: wrap;
+    width: 73%;
 }
 
 .header-content__header-subtitle {
@@ -133,6 +130,7 @@ html {
 }
 
 .sign-up-button {
+    width: fit-content;
     display: flex;
     align-items: center;
     justify-content: center;
