@@ -508,6 +508,12 @@ body {
     .top-panel {
         margin-left: 20px;
     }
+    .top-panel{
+        margin-left: 20px;
+    }
+    .navigation-panel{
+        margin-right: 20px;
+    }
     .navigation-panel{
         margin-right: 40px;
     }
@@ -530,6 +536,24 @@ body {
     .hamburger-menu{
         display: flex;
         visibility: visible;
+    }
+}
+
+@media screen and (max-width: 1157px) {
+    .form-description__title{
+        padding-top: 50px;
+    }
+    .main__form-description{
+        margin-bottom: 20px;
+    }
+    .main__form-wrapper{
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 1008px) {
+    .main__form-description{
+        padding-bottom: 20px;
     }
 }
 
