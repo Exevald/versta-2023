@@ -69,6 +69,12 @@ html {
     color: #FFFFFF;
 }
 
+.list-item:hover {
+    color: #65EDBC;
+    transform: scale(1.02);
+    transition: transform 500ms;
+}
+
 .text-medium {
     font-family: 'Jost', sans-serif;
     font-style: normal;
@@ -183,6 +189,8 @@ html {
 
 .main__form-wrapper {
     width: 80%;
+    margin-top: 181px;
+    width: 50%;
     height: 490px;
     display: flex;
 }
@@ -301,7 +309,6 @@ body{
 
 .main-examples-works{
     width: 1182px;
-    padding-bottom: 181px;
 }
 
 .main-example-works__header{
