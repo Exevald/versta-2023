@@ -2,3 +2,156 @@
     margin: 0;
     padding: 0;
 }
+
+.header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #18181B;
+    padding-bottom: 155px;
+}
+
+.header__top-panel{
+    padding-top: 28px;
+}
+
+
+.top-panel{
+    display: flex;
+    width: 62%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.logo__name{
+    background: linear-gradient(271.89deg, #059669 22.06%, #00D995 116.84%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.logo__img{
+    width: 24px;
+}
+
+.text-logo-medium{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 16px;
+}
+
+.navigation-panel{
+}
+
+.navigation-panel-list{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.list-item_linked{
+    text-decoration: none;
+}
+
+.list-item{
+    color: #FFFFFF;
+}
+
+.text-medium{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.header__header-content{
+    padding-top: 106px;
+}
+
+.header-content__header-title{
+    color: #FFFFFF;
+}
+
+.header-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.header-title__text{
+    margin: 0;
+    padding: 0;
+}
+
+.text-xxlarge{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+}
+
+.header-subtitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 38px;
+    flex-wrap: wrap;
+}
+
+.header-content__header-subtitle{
+    padding-top: 38px;
+}
+
+.subtitle-content{
+    width: 545px;
+}
+
+.text-xmedium{
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.sign-up-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background: #65EDBC;
+    border-radius: 44px;
+    padding: 13.5px 48.5px;
+    color: #18181B;
+}
+
+.text-button-xmedium{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.subtitle-content__text{
+    color: #DFDFDF;
+    line-height: 140%;
+}
+
+.header__main-image{
+    margin-top: 52px;
+
+}
+
+.main-image{
+    width: 100%;
+    border: none;
+    border-radius: 33px;
+}
